@@ -1,0 +1,92 @@
+#header{
+    background-color: #6c36c836;
+    color:rgb(164, 129, 65);
+    border-radius:50px;
+    box-shadow:0px 15px 13px rgba(0, 0, 0, 0.32);
+    width:60%;
+    height: 10%;
+    margin-bottom: 13px;
+
+}
+body{
+    background-color: rgb(25, 7, 114);
+    margin: 0px;
+    font-family:'shantell Sans',cursive;
+}
+button{
+        font-family:'shantell Sans',cursive;
+
+}
+
+#all-content{
+    height: 100vh;
+    margin: 0px;
+}
+#main-content{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#header-and-board-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+
+
+
+}
+#instruction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#grid-container{
+    background-color: #F0DB4F;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    border:#4d4d4d solid 12px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 13px rgba(0,0,0,0.9);
+    aspect-ratio: 1;
+    height: 90%;
+    }
+    .square{
+        padding: 20px;
+        border: black solid 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s;
+
+    }
+    .square:hover{
+        background-color: #c6b439;
+
+    }
+
+    .action-btn{
+        font-size: 30px;
+        padding: 7px 30px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.32);
+        border: none;
+        color:white;
+        background-color: rgb(84, 60, 172);
+        cursor:pointer;
+        margin-top: 10px;
+        transition:all 0.3s;
+
+    }
+    .action_btn:hover{
+        box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.7);
+        background-color: rgb(173,105, 240);
+        
+    }
